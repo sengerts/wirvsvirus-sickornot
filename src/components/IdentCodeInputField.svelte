@@ -12,7 +12,7 @@
     @media (max-width: 370px) { 
         input {
             font-size: var(--info-text-font-size)!important;
-            padding: 6px 0!important;
+            padding: 10px 0!important;
         }   
     }
     .errorMessage {
