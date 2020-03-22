@@ -3,10 +3,10 @@
 Frontend-Implementierung unserer Projekt-Einreichung im Rahmen des #WirVsVirusHack #WirVsVirus.
 
 
-## Getting started
+## Allgemeines
 Diese Anwendung hat den Zweck, die Vermittlung der Covid19-Testergebnisse von den Teststellen zuu den Getesteten einfach und schnell über eine Webanwendung und einen eigenen, eindeutigen Identifier-Code zu realisieren. Dies löst das Problem der dauerhaft überfüllten Telefonwarteschlangen und sorgt somit dafür, dass der Testablauf im Allgemeinen verschnellert wird.
 
-### Running the project
+## Ausführen der Anwendung
 
 Zum Ausführen der Anwendung, gib folgende Befehle in eine Kommandozeile im Projektordner ein:
 
@@ -17,9 +17,9 @@ npm run dev
 
 Öffne nun [localhost:3000](http://localhost:3000).
 
-## Structure
+## Projektstruktur
 
-Dieses Projekt basiert auf dem [Sapper](https://github.com/sveltejs/sapper) template mit Rollup.
+Dieses Projekt basiert auf dem [Sapper](https://github.com/sveltejs/sapper) template mit Rollup. Genauere Informationen zur Projektstruktur findet man in der [Sapper Dokumentation](https://sapper.svelte.dev/docs/).
 
 ## Production-Modus und Deployment
 
