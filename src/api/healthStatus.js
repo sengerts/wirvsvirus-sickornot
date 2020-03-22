@@ -1,4 +1,5 @@
 import { goto } from '@sapper/app';
+import { identCodeNotValid } from '../stores/identCodeStore.js';
 
 export default async function checkHealthStatus(identCode) {
     // TODO Await?
@@ -13,12 +14,21 @@ export default async function checkHealthStatus(identCode) {
         }
     })
     .then(data => {
-        // TODO Redirect to page according to result
-        console.log('data is', data)
-        goto('/test');
+        identCodeNotValid.update(oldValue => false);
+        if(!data.testResult) {
+            return;
+        }
+        if(data.testResult === "UNTESTED") {
+            goto('/unknown');
+        } else if(data.testResult === "POSITIVE") {
+            goto('/sick');
+        } else if(data.testResult === "NEGATIVE") {
+            goto('/healthy');
+        } else {
+            return Promise.reject('Test result not valid!');
+        }
     })
     .catch(error => {
-        // TODO Show sweet alert: Ident Code not valid!
-        console.log('Error: ', error)
+        identCodeNotValid.update(oldValue => true);
     });
 }

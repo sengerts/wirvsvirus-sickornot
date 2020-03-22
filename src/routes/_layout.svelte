@@ -8,6 +8,10 @@
 	
 </style>
 
+<svelte:head>
+	<title>SickOrNot</title>
+</svelte:head>
+
 <main>
 	<slot></slot>
 </main>

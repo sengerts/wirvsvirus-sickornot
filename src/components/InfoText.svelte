@@ -1,5 +1,6 @@
 <script>
-	export let text;
+    export let text;
+    export let type = "";
 </script>
 
 <style>
@@ -10,7 +11,18 @@
         max-width: 70vw;
         margin: 60px auto 20px auto;
         text-align: center;
+        line-height: 1.3;
+    }
+    p.sick, p.healthy, p.unknown {
+        color: var(--text-white-color);
+        font-size: var(--sick-info-text-font-size);
+    }
+    p.sick, p.unknown {
+        margin-top: 40px;
+    }
+    p.healthy {
+        margin-top: 30px;
     }
 </style>
 
-<p>{text}</p>
+<p class={type}>{text}</p>

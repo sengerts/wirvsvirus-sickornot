@@ -1,6 +1,6 @@
 <script>
     export let title;
-    export let type;
+    export let type = "";
 </script>
 
 <style>
@@ -21,6 +21,9 @@
         font-weight: 500;
         margin-bottom: 24px;
         text-align: center;
+    }
+    h2.unknown {
+        color: var(--info-text-color);
     }
     h2.sick {
         color: var(--gradient-sick-second-color);
