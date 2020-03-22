@@ -9,7 +9,7 @@
 Frontend-Implementierung unserer Projekt-Einreichung im Rahmen des #WirVsVirusHack #WirVsVirus.
 
 ## Allgemeines
-Diese Anwendung hat den Zweck, die Vermittlung der Covid19-Testergebnisse von den Teststellen zuu den Getesteten einfach und schnell über eine Webanwendung und einen eigenen, eindeutigen Identifier-Code zu realisieren. Dies löst das Problem der dauerhaft überfüllten Telefonwarteschlangen und sorgt somit dafür, dass der Testablauf im Allgemeinen verschnellert wird.
+Diese Anwendung hat den Zweck, die Vermittlung der Covid19-Testergebnisse von den Teststellen zu den Getesteten einfach und schnell über eine Webanwendung und einen eigenen, eindeutigen Identifier-Code zu realisieren. Dies löst das Problem der dauerhaft überfüllten Telefonwarteschlangen und sorgt somit dafür, dass der Testablauf im Allgemeinen verschnellert wird.
 
 ## Demo
 <img markdown="1" alt="Home" style="float: left;" src="/static/SickOrNot_demo.gif"/> 
