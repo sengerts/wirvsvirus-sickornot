@@ -28,6 +28,6 @@
 </style>
 
 <header>
-    <a alt="Logo-Link" href="/"><img alt="SickOrNot" src="SickOrNot_logo.svg"/></a>
+    <a alt="Logo-Link" href="/"><img alt="SickOrNot" src="logo.png"/></a>
     <p>Corona-Testergebnis einfach und schnell online einsehen</p>
 </header>
