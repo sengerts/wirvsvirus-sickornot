@@ -1,0 +1,31 @@
+:root {
+  --text-white-color: #FDFFFF;
+  --info-text-color: #7C9AAC;
+  --gradient-blue-first-color: #00CAFF;
+  --gradient-blue-second-color: #04A0F9;
+  --gradient-sick-first-color: #F969A8;
+  --gradient-sick-second-color: #E963AF;
+  --gradient-healthy-first-color: #A5DE61;
+  --gradient-healthy-second-color: #74BE42;
+  --title-font-size: 40px;
+  --info-text-font-size: 12px;
+  --test-box-title-font-size: 21px;
+  --test-box-result-font-size: 19px;
+  --default-button-font-size: 12px;
+  --sick-action-button-font-size: 20px;
+  --sick-info-text-font-size: 14px;
+  --healthy-info-text-font-size: 19px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+input, button {
+    font-family: inherit;
+}
