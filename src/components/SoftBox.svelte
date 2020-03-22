@@ -4,6 +4,12 @@
 </script>
 
 <style>
+    @media (max-width: 340px) { 
+        section {
+            min-height: initial!important;
+            padding: 20px 10px!important;
+        }
+    }
     @media (min-width: 770px) { 
         section {
             width: var(--softbox-button-width-tablet)!important;

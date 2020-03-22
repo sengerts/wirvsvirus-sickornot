@@ -24,7 +24,7 @@
 <SoftBox title="Impressum">
     <div class="box">
         <h2>Angaben gemäß § 5 TMG</h2>
-        <p>Kevin Jens Schäfer<br/>
+        <p>Kevin Jens Schaefer<br/>
         Allmandring 26H<br/>
         70569 Stuttgart</p>
         <br/>

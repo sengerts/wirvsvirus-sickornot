@@ -9,6 +9,12 @@
 </script>
 
 <style>
+    @media (max-width: 340px) { 
+        input {
+            font-size: var(--info-text-font-size)!important;
+            padding: 6px 0!important;
+        }   
+    }
     .errorMessage {
         color: var(--gradient-sick-second-color);
         font-size: var(--sick-info-text-font-size);
@@ -19,7 +25,7 @@
         text-align: center;
     }
 	input {
-        padding: 12px 40px;
+        padding: 12px 15px;
         display: block;
         margin: 0 auto;
         border-radius: 21px;
@@ -81,7 +87,7 @@
 <input 
     type="text" 
     class={$identCodeNotValid ? "notValid" : ""}
-    size="24" 
+    size="30" 
     maxlength="7" 
     placeholder="Gib hier deinen Identifier ein" 
     on:keyup={handleSubmit}
