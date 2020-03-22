@@ -5,9 +5,6 @@
 </script>
 
 <style>
-	body {
-		overflow: hidden;
-	}
 	a {
 		text-decoration-color: var(--info-text-color);
 	}
