@@ -4,10 +4,23 @@
 </script>
 
 <style>
+    @media (min-width: 770px) { 
+        section {
+            width: var(--softbox-button-width-tablet)!important;
+        }   
+        h2 {
+            font-size: var(--test-box-title-font-size-big)!important;
+        }
+    }
+    @media (min-width: 1060px) { 
+        section {
+            width: var(--softbox-button-width-desktop)!important;
+        }
+    }
 	section {
         background: white;
         border-radius: 13px;
-        width: 80vw;
+        width: var(--softbox-button-width-mobile);
         min-height: 130px;
         margin: 60px auto 0 auto;
         padding: 24px 10px;

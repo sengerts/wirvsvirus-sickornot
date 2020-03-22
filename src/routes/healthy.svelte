@@ -10,7 +10,7 @@
 </script>
 
 <ValidateIdentCode/>
-<Banner bannerImagePath={"healthy-banner.svg"}/>
+<Banner bannerImagePath={"healthy-banner.svg"} type="healthy"/>
 <Header/>
 <SickContents>
     <SoftBox title="Dein Testergebnis" type="healthy">

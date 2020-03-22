@@ -8,6 +8,23 @@
     a {
         text-decoration-color: white;
     }
+    @media (min-width: 770px) { 
+        button {
+            font-size: var(--test-box-result-font-size)!important;
+            width: var(--softbox-button-width-tablet)!important;
+            padding: 15px 10px!important;
+        }   
+    }
+    @media (min-width: 1060px) { 
+        button {
+            width: var(--softbox-button-width-desktop)!important;
+        }
+    }
+    @media (max-height: 665px) { 
+       button {
+           margin-top: 30px!important;
+       }
+    }
 	button {
         display: block;
         color: white;
@@ -15,7 +32,7 @@
         background: var(--gradient-blue-second-color);
         background: linear-gradient(270deg, var(--gradient-blue-second-color) 0%, var(--gradient-blue-first-color) 100%);
         border-radius: 19px;
-        width: 80vw;
+        width: var(--softbox-button-width-mobile);
         margin: 15px auto;
         padding: 10px 10px;
         outline: none;

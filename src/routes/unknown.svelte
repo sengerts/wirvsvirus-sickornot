@@ -25,7 +25,7 @@
 </script>
 
 <ValidateIdentCode/>
-<Banner bannerImagePath={"unknown-banner.svg"}/>
+<Banner bannerImagePath={"unknown-banner.svg"} type="unknown"/>
 <Header/>
 <SickContents>
     <SoftBox title="Dein Testergebnis" type="unknown">
