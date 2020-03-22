@@ -9,7 +9,7 @@
 </script>
 
 <style>
-    @media (max-width: 340px) { 
+    @media (max-width: 370px) { 
         input {
             font-size: var(--info-text-font-size)!important;
             padding: 6px 0!important;
