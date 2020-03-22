@@ -1,4 +1,4 @@
-# SickOrNot
+# SickOrNot - User Frontend
 
 <span class="devpost" markdown="1">
   <a href="https://devpost.com/software/wirvsvirushackathon">
