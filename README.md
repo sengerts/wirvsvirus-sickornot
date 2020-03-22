@@ -14,6 +14,8 @@ Diese Anwendung hat den Zweck, die Vermittlung der Covid19-Testergebnisse von de
 ## Demo
 <img markdown="1" alt="Home" style="float: left;" src="/static/SickOrNot_demo.gif"/> 
 
+Das vollständige Vorstellungsvideo von SickOrNot findet man [hier](https://www.youtube.com/watch?v=xnTtKcy84I8).
+
 ## Ausführen der Anwendung
 
 Zum Ausführen der Anwendung, gib folgende Befehle in eine Kommandozeile im Projektordner ein:
