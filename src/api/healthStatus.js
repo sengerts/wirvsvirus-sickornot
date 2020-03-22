@@ -3,7 +3,7 @@ import { identCodeNotValid } from '../stores/identCodeStore.js';
 
 export default async function checkHealthStatus(identCode) {
     // TODO Await?
-    fetch("http://api.sick-or-not.dev.schaefkn.com/result/" + identCode, {
+    fetch("https://api.sickornot.com/result/" + identCode, {
         method: 'GET'
     })
     .then(response => {
