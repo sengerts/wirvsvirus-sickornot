@@ -35,3 +35,13 @@ now
 Weitere Informationen zur Verwendung dieser Anwedung finden sich in der [Sapper Dokumentation](https://sapper.svelte.dev/docs/).
 
 ## Autoren
+- Noah Schmid: Backend Entwickler, Student der Informatik
+- Finn-Jannik Mundinger: Backend Entwickler, Student der Informatik
+- Simon Egger: Backend Entwickler, Student der Informatik
+- Tobias Senger: Frontend Entwickler, Student der Informatik
+- Andrijana Radic: Frontend Entwicklerin, Studentin der Informatik
+- Maxime Schwarzer: Frontend Entwickler, Student der Informatik
+- Ferdinand Göldner: iOS Entwickler, Data Visualization & Analytics
+- Jan Waidelich: Projektmanagement, Student der Informatik
+- Kevin Schaefer: Projektmanagement, DevOps, Student der Informatik
+- Benedikt Link: Projektmanagement, Student der Informatik
